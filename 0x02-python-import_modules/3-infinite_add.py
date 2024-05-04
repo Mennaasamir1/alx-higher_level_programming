@@ -5,5 +5,5 @@ if __name__ == "__main__":
     result = 0
     for i in range(1, length):
         result += int(sys.argv[i])
-    print(result)
+    print("{}".format(result))
     
