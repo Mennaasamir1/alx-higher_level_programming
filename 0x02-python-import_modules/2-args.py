@@ -4,7 +4,7 @@ if __name__ == "__main__":
     count = len(argv) - 1
     
     if count < 1:
-        print("{} arguments.".format(count))
+        print("{} argument.".format(count))
     elif count == 1:
         print("{} arguments:".format(count))
     else:
