@@ -6,5 +6,4 @@ def element_at(my_list, idx):
         return None
     elif my_list[idx] > length:
         return None
-    else:
-        return value
+    return value
